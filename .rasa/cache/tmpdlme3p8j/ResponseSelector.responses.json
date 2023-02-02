@@ -1,0 +1,32 @@
+{
+  "utter_faq/ask_check_in_time": [
+    {
+      "text": "Check in starts at 3 PM. Please contact the reception to request an early check-in."
+    }
+  ],
+  "utter_faq/ask_check_out_time": [
+    {
+      "text": "Check out is by 11 AM on your departure date. Our team is happy to store your luggage after you checkout at the reception if you need it."
+    }
+  ],
+  "utter_faq/ask_have_gym": [
+    {
+      "text": "The gym can be found on the ground floor. It is open to our guests 24 hours a day every day. Simply use your room key card to gain entry."
+    }
+  ],
+  "utter_faq/ask_have_restaurant": [
+    {
+      "text": "The hotel has two restaurants:\n 1) Hilton Fresh is a Mediterranean restaurant. It can be found on the hotel's ground floor. \n 2) Hilton Africana is an African restaurant. It can be found on the hotel's top floor."
+    }
+  ],
+  "utter_faq/ask_breakfast_info": [
+    {
+      "text": "The hotel offers its guests free breakfast every morning. It is served in Hilton Africana, the ground floor restaurant.\nThe hours for breakfast are:\n  Mondays to Fridays: 7 AM-11 AM \n  Saturdays and Sundays: 8 AM-1 PM"
+    }
+  ],
+  "utter_faq/ask_have_pool": [
+    {
+      "text": "The hotel's pool can be found on the ground floor near the gym. The pool is open 8 AM to 10 PM every day."
+    }
+  ]
+}

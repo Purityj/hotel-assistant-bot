@@ -1,0 +1,232 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hi there
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: thank
+  examples: |
+    - thanks!
+    - thank you
+    - thanks a lot
+    - great thanks
+    - appreciate it
+    - cool thanks
+    - Cool. Thanks
+    - Great, thanks
+    - Thank you so much
+    - Thank's!
+    - Thanks bot
+    - Thanks for that
+    - Thanks!
+    - amazing, thanks
+    - cool thank you
+    - cool, thanks
+    - danke
+    - ok thanks
+    - ok thanks!
+    - perfect thank you
+    - thank u
+    - thank you anyways
+    - thanks
+    - thanks a bunch for everything
+    - thanks for the help
+    - thanks you
+    - thankyou
+    - thnks
+    - thx
+    - yes thanks
+    - no thanks
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no I do not
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - is this ai?
+- intent: request_clean_room
+  examples: |
+    - can you ask for someone to clean the clean the room?
+    - request for room clean
+    - room cleaning
+    - i want to have my room cleaned
+    - could you send someone to clean the room
+    - send someone to clean the room
+    - need someone to clean the room
+    - i would like to request for room cleaning
+    - request room cleaning service
+    - can you send someone to clean the room?
+    - my room needs to be cleaned
+    - please send someone to clean my room
+    - i would like to have my room cleaned
+    - i need my room cleaned
+    - send someone to clean my room
+- intent: request_item
+  examples: |
+    - can you bring an item to my room?
+    - i would like an item brought to my room please
+    - i need a [toothbrush](item) brought to my room?
+    - i would like some [water](item) brought to my room?
+    - we need more [towels](item)
+    - could you bring me a [razor](item)?
+    - i need some [tampons](item)
+    - i forgot my [toothbrush](item). can you bring one to my room?
+    - bring me more [shampoo](item)
+    - we ran out of [conditioner](item)
+    - we need another [pillow](item)
+    - we want more [shampoo](item) and [conditioner](item)
+    - we need more [towels](item), [pillows](item), and [blankets](item)
+    - i need things brought to my room
+    - [towels](item), [shampoo](item), [conditioner](item)
+- intent: request_late_checkout
+  examples: |
+    - is late check out possible?
+    - can i check out late?
+    - what are the fees for late check out?
+    - is there a fee for late check?
+    - i want to check out late
+    - late check out
+    - how late can i check out?
+    - i would like to check out late
+- intent: need_urgent
+  examples: |
+    - urgently
+    - now
+    - could you send someone right now?
+    - send someone right now
+    - required now
+    - needed now
+    - send them now
+    - it is urgent
+    - please send someone right now
+    - the requirement is urgent
+    - can you send someone as soon as possible
+    - as soon as possible
+    - immediately
+    - right away
+- intent: schedule_time
+  examples: |
+    - could you send someone after 2 hours?
+    - send someone after 3 hours
+    - in two hours time
+    - at 18:00
+    - at 17h
+    - after 10 AM
+    - at 2 PM
+    - around 9 AM
+    - around 2 hours later
+    - at 9 AM tomorrow
+    - tomorrow at 10
+    - later tonight at 20h
+    - later at 8 PM
+- intent: inform_room_number
+  examples: |
+    - [203](room_number)
+    - [6](room_number)
+    - i am in room [56](room_number)
+    - my room number is [402](room_number)
+    - room [310](room_number)
+    - it is [602](room_number)
+    - [10](room_number)
+    - [204](room_number)
+- intent: faq/ask_check_in_time
+  examples: |
+    - when is check in time?
+    - what time is check in?
+    - what is check-in time?
+    - when is check-in?
+    - tell me your check in time
+    - tell me the hotel's check in time
+    - check in time
+    - i would like to know when check in is
+    - i want to know when i can check in
+    - can you tell me the hotel's check in time
+- intent: faq/ask_check_out_time
+  examples: |
+    - when do i need to check out by?
+    - when is check out?
+    - what time is check out?
+    - check out time
+    - can you tell me when check out is?
+    - tell me what the check out time is
+    - when is checkout?
+    - when time is check-out?
+- intent: faq/ask_have_gym
+  examples: |
+    - is there a gym?
+    - do you have a gym?
+    - does the hotel have a gym?
+    - where is the gym in the hotel?
+    - where can i find the gym?
+    - tell me about the gym
+    - when is the gym open?
+    - what time is the gym open?
+- intent: faq/ask_have_restaurant
+  examples: |
+    - is there a restaurant?
+    - tell me about the hotel's restaurant
+    - does the hotel have a restaurant?
+    - can i find a restaurnat here?
+    - can you tell me about the restaurant in the hotel?
+    - is there a restaurant in this hotel?
+- intent: faq/ask_have_pool
+  examples: |
+    - is there a pool?
+    - do you have a pool?
+    - does the hotel have a pool?
+    - where is the pool in the hotel?
+    - where can i find the pool?
+    - tell me about the pool
+    - when is the pool open?
+    - what time is the pool open?
+- intent: faq/ask_breakfast_info
+  examples: |
+    - is breakfast included?
+    - where is breakfast?
+    - what time is breakfast?
+    - where is breakfast served?
+    - when is breakfast served?
+    - do you serve breakfast?
+    - does the hotel offer breakfast?
